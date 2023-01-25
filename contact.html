@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Interest me!</title>
+</head>
+<body>
+<a href="index.html">Home</a>
+<a href="about.html">about</a>
+
+<h2>search</h2>
+
+<div class="row">
+  <div class="left" style="background-color:rgb(52, 191, 207);">
+    <h2>Type</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="#">Xbox</a></li>
+      <li><a href="#">playstaion</a></li>
+      <li><a href="#">PC</a></li>
+      <li><a href="#">nintendo</a></li>
+      <li><a href="#">VR</a></li>
+      <li><a href="#">NES</a></li>
+      <li><a href="#">WII</a></li>
+      <li><a href="#">Gameboy</a></li>
+      <li><a href="#">DS</a></li>
+    </ul>
+  </div>
+  
+  <div class="right" style="background-color:rgb(128, 232, 138);">
+    <h2>Page Content</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quos, reiciendis, velit dolore ipsa libero non odio animi nisi aliquam aut nesciunt tempora pariatur distinctio.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, natus rem nesciunt nam et temporibus.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius hic aut iusto quas, dolorum soluta nostrum? Alias et excepturi corporis!</p>
+    <p>Lorem, ipsum.</p>
+  </div>
+</div>
+
+<hr>
+
+<table>
+  <tr>
+    <th>name</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>eric shawn</td>
+    <td>reddit<a href="#" class="fa fa-reddit"></a></td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>hugo franco</td>
+    <td>facebook<a href="#" class="fa fa-facebook"></a></td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>miguel larrea torres</td>
+    <td>twitter<a href="#" class="fa fa-twitter"></a></td>
+    <td>Ecuador</td>
+  </tr>
+  <tr>
+    <td>jhon doe</td>
+    <td>instagram<a href="#" class="fa fa-instagram"></a></td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>jeff don</td>
+    <td>twitter<a href="#" class="fa fa-twitter"></a></td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>keven heart</td>
+    <td>facebook<a href="#" class="fa fa-facebook"></a></td>
+    <td>USA</td>
+  </tr>
+</table>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+    
+</body>
+</html>
